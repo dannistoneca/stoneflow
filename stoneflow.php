@@ -39,3 +39,4 @@ require_once plugin_dir_path(__FILE__) . 'includes/pages/stoneflow-client-intake
 require_once plugin_dir_path(__FILE__) . 'includes/pages/stoneflow-add-client.php';
 require_once plugin_dir_path(__FILE__) . 'includes/pages/stoneflow-view-client.php';
 require_once plugin_dir_path(__FILE__) . 'includes/pages/stoneflow-update-service.php';
+require_once plugin_dir_path(__FILE__) . 'includes/admin-banner.php';
