@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php": ">=8.2"
+  },
+  "require-dev": {
+    "wp-phpunit/wp-phpunit": "^6.8.1",
+    "squizlabs/php_codesniffer": "^3"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit --configuration phpunit.xml.dist --testdox",
+    "lint": "vendor/bin/phpcs --standard=WordPress stoneflow"
+  }
+}
